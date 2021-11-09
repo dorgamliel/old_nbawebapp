@@ -1,0 +1,44 @@
+.container {
+    background-color: red;
+}
+
+img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin-left: -25px;
+}
+
+.bet{
+    background-color: lightyellow;
+    height: 50px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 10vw;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: -35px;
+}
+
+.team {
+    background-color: lightyellow;
+    height: 50px;
+    width: inherit;
+    /* margin: auto; */
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+.bet-container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}

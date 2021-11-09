@@ -1,0 +1,12 @@
+#leaderboard-container {
+
+}
+
+.user {
+    background-color: lightyellow;
+    height: 50px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}

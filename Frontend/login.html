@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css" type="text/css"/>
+    <script src="./login.js"></script>
+    <link rel="stylesheet" href="./login.css" type="text/css"/>
     <link rel="stylesheet" href="./menu.css" type="text/css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>NBA App</title>
 </head>
 <body>
-    <div id="greeting-container"></div>
     <div id="menu" class="row">
         <div class="menu-option" onclick="location.href = './index.html';">Home</div>
-        <div class="menu-option" onclick="location.href = './login.html';">Login</div>
         <div class="menu-option" onclick="location.href = './standings.html';">Standings</div>
         <div class="menu-option" onclick="location.href = './injuries.html';">Injuries</div>
         <div class="menu-option" onclick="location.href = './bets.html';">Bets</div>
         <div class="menu-option" onclick="location.href = './leaderboard.html';">Leaderboard</div>
         <div class="menu-option" onclick="location.href = './highlights.html';">Highlights</div>
     </div>
-
-    <script src="./index.js"></script>
+    <div class="row" id='login-container'>
+        <div>
+            LOGIN
+            <div>Username</div>
+            <input type="text" id="userLogin" name="user" value="John"><br>
+            <div>Password</div>
+            <input type="text" id="passLogin" name="pass" value="koko123"><br>
+            <button onclick="login()">login</button>
+        </div>
+        <div>
+            SIGNUP
+            <div>Username</div>
+            <input type="text" id="userSignup" name="user" value="John"><br>
+            <button onclick="signup()">signup</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </body>
 </html>
